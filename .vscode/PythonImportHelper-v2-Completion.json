@@ -75,7 +75,7 @@
         "kind": 5,
         "importPath": "Home",
         "description": "Home",
-        "peekOfCode": "dt4 = dt['sepal.width'].sum()\ndx = [dt1, dt2, dt3, dt4]\ndx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"\n<style>*{ background-color:'red'}</style>",
+        "peekOfCode": "dt4 = dt['sepal.width'].sum()\ndx = [dt1, dt2, dt3, dt4]\ndx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"\n<style>*{background-color:'red'}</style>",
         "detail": "Home",
         "documentation": {}
     },
@@ -84,7 +84,7 @@
         "kind": 5,
         "importPath": "Home",
         "description": "Home",
-        "peekOfCode": "dx = [dt1, dt2, dt3, dt4]\ndx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"\n<style>*{ background-color:'red'}</style>\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">",
+        "peekOfCode": "dx = [dt1, dt2, dt3, dt4]\ndx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"\n<style>*{background-color:'red'}</style>\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">",
         "detail": "Home",
         "documentation": {}
     },
@@ -93,7 +93,7 @@
         "kind": 5,
         "importPath": "Home",
         "description": "Home",
-        "peekOfCode": "dx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"\n<style>*{ background-color:'red'}</style>\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>การทำนายคลาสดอกไม้</h5></center>",
+        "peekOfCode": "dx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"\n<style>*{background-color:'red'}</style>\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>การทำนายคลาสดอกไม้</h5></center>",
         "detail": "Home",
         "documentation": {}
     },
@@ -102,7 +102,7 @@
         "kind": 5,
         "importPath": "Home",
         "description": "Home",
-        "peekOfCode": "html_2 = \"\"\"\n<style>*{ background-color:'red'}</style>\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>การทำนายคลาสดอกไม้</h5></center>\n</div>\n\"\"\"\nst.markdown(html_2, unsafe_allow_html=True)\nst.markdown(\"\")   \nptlen = st.slider(\"กรุณาเลือกข้อมูล petal.length\",0,10)\nptwd = st.slider(\"กรุณาเลือกข้อมูล petal.width\",0,10)",
+        "peekOfCode": "html_2 = \"\"\"\n<style>*{background-color:'red'}</style>\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>การทำนายคลาสดอกไม้</h5></center>\n</div>\n\"\"\"\nst.markdown(html_2, unsafe_allow_html=True)\nst.markdown(\"\")   \nptlen = st.slider(\"กรุณาเลือกข้อมูล petal.length\",0,10)\nptwd = st.slider(\"กรุณาเลือกข้อมูล petal.width\",0,10)",
         "detail": "Home",
         "documentation": {}
     },
