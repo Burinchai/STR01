@@ -39,7 +39,7 @@
         "kind": 5,
         "importPath": "Home",
         "description": "Home",
-        "peekOfCode": "html_1 = \"\"\"\n<style>\n *{\n   background-color: red;\n  }\n</style>\n<div style=\"background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>สถิติข้อมูลดอกไม้</h5></center>\n</div>\n\"\"\"",
+        "peekOfCode": "html_1 = \"\"\"\n<style>\n</style>\n<div style=\"background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>สถิติข้อมูลดอกไม้</h5></center>\n</div>\n\"\"\"\nst.markdown(html_1, unsafe_allow_html=True)\nst.markdown(\"\")\nimport pandas as pd",
         "detail": "Home",
         "documentation": {}
     },

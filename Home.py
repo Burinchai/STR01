@@ -17,9 +17,6 @@ with col2:
 
 html_1 = """
 <style>
- *{
-   background-color: red;
-  }
 </style>
 <div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
