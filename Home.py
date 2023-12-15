@@ -5,7 +5,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 
 st.header("Burinchai Sukon")
-
+st.balloons()
 st.title('การทดสอบเขียนเว็บด้วย Python')
 st.header('ผศ.ดร.ไก้รุ่ง เฮงพระพรหม')
 st.subheader('สาขาวิชาวิทยาการข้อมูล')
@@ -101,21 +101,3 @@ st.video("https://youtu.be/N1fnq4MF3AE?si=T6TDBZSYzWgruUH7", format="video/mp4",
 
 st.divider()
 
-def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-st.header("การวิเคราะห์ความรู้สึกภาษาไทย")
-st.subheader("Kairung Hengpraprohm")
-
-col1, col2 = st.columns(2)
-with col1:
-    st.image('./pic/kairung.jpg')
-    lot3="https://lottie.host/7694433a-eb67-423d-a987-da760a88f4c2/ajfA7ELhKh.json"
-    lottie3 = load_lottieurl(lot3)
-    st_lottie(lottie3)
-with col2:
-    st.image('./pic/DS1.jpg')
-st.balloons()

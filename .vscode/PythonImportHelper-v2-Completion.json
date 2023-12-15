@@ -70,15 +70,6 @@
         "documentation": {}
     },
     {
-        "label": "load_lottieurl",
-        "kind": 2,
-        "importPath": "Home",
-        "description": "Home",
-        "peekOfCode": "def load_lottieurl(url: str):\n    r = requests.get(url)\n    if r.status_code != 200:\n        return None\n    return r.json()\nst.header(\"การวิเคราะห์ความรู้สึกภาษาไทย\")\nst.subheader(\"Kairung Hengpraprohm\")\ncol1, col2 = st.columns(2)\nwith col1:\n    st.image('./pic/kairung.jpg')",
-        "detail": "Home",
-        "documentation": {}
-    },
-    {
         "label": "html_1",
         "kind": 5,
         "importPath": "Home",
