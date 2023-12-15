@@ -5,8 +5,8 @@ import streamlit as st
 st.header("Burinchai Sukon")
 st.balloons()
 st.title('การทดสอบเขียนเว็บด้วย Python')
-st.header('ผศ.ดร.ไก้รุ่ง เฮงพระพรหม')
-st.subheader('สาขาวิชาวิทยาการข้อมูล')
+st.header('นายบุริทร์ชัย สุขอ่อน')
+st.subheader('สาขาวิชาเทคโนโลยีสารสนเทศ')
 st.markdown("----")
 
 col1, col2 = st.columns(2)
