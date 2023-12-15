@@ -88,3 +88,5 @@ if st.button("ทำนายผล"):
    st.button("ไม่ทำนายผล")
 else :
     st.button("ไม่ทำนายผล")
+
+st.video(https://youtu.be/RE_pN8ZUoNE?si=5hOB857RQdWZl_Y3, format="video/mp4", start_time=0)
