@@ -77,16 +77,18 @@ if st.button("ทำนายผล"):
    out=Knn_model.predict(x_input)
 
    if out[0]=="Setosa":
-      #st.image("./pic/iris.jpg")
+      st.image("./pic/setosa.jpg")
       st.header("Setosa")
    elif out[0]=="Versicolor":
-      #st.image("./pic/iris2.jpg")
+      st.image("./pic/versicolor.jpg")
       st.header("Versicolor")
    else:
-      #st.image("./pic/iris1.jpg")  
+      st.image("./pic/virginiaca.jpg")  
       st.header("Verginiga")
    st.button("ไม่ทำนายผล")
 else :
     st.button("ไม่ทำนายผล")
+
+st.divider()
 
 st.video("https://youtu.be/N1fnq4MF3AE?si=T6TDBZSYzWgruUH7", format="video/mp4", start_time=0)
