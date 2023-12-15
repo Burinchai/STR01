@@ -1,0 +1,145 @@
+[
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "KNeighborsClassifier",
+        "importPath": "sklearn.neighbors",
+        "description": "sklearn.neighbors",
+        "isExtraImport": true,
+        "detail": "sklearn.neighbors",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "html_1",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "html_1 = \"\"\"\n<div style=\"background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>สถิติข้อมูลดอกไม้</h5></center>\n</div>\n\"\"\"\nst.markdown(html_1, unsafe_allow_html=True)\nst.markdown(\"\")\nimport pandas as pd\ndt=pd.read_csv('./data/iris.csv')\nst.write(dt.head(10))",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "dt1",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "dt1 = dt['petal.length'].sum()\ndt2 = dt['petal.width'].sum()\ndt3 = dt['sepal.length'].sum()\ndt4 = dt['sepal.width'].sum()\ndx = [dt1, dt2, dt3, dt4]\ndx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "dt2",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "dt2 = dt['petal.width'].sum()\ndt3 = dt['sepal.length'].sum()\ndt4 = dt['sepal.width'].sum()\ndx = [dt1, dt2, dt3, dt4]\ndx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") ",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "dt3",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "dt3 = dt['sepal.length'].sum()\ndt4 = dt['sepal.width'].sum()\ndx = [dt1, dt2, dt3, dt4]\ndx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "dt4",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "dt4 = dt['sepal.width'].sum()\ndx = [dt1, dt2, dt3, dt4]\ndx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "dx",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "dx = [dt1, dt2, dt3, dt4]\ndx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>การทำนายคลาสดอกไม้</h5></center>",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "dx2",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "dx2 = pd.DataFrame(dx, index=[\"d1\", \"d2\", \"d3\", \"d4\"])\nif st.button(\"show bar chart\"):\n    st.bar_chart(dx2)\n    st.button(\"Not show bar chart\")\nelse :\n    st.button(\"Not show bar chart\") \nhtml_2 = \"\"\"\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>การทำนายคลาสดอกไม้</h5></center>\n</div>",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "html_2",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "html_2 = \"\"\"\n<div style=\"background-color:#FFBF00;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black\">\n<center><h5>การทำนายคลาสดอกไม้</h5></center>\n</div>\n\"\"\"\nst.markdown(html_2, unsafe_allow_html=True)\nst.markdown(\"\")   \nptlen = st.slider(\"กรุณาเลือกข้อมูล petal.length\",0,10)\nptwd = st.slider(\"กรุณาเลือกข้อมูล petal.width\",0,10)\nsplen = st.number_input(\"กรุณาเลือกข้อมูล sepal.length\")",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "ptlen",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "ptlen = st.slider(\"กรุณาเลือกข้อมูล petal.length\",0,10)\nptwd = st.slider(\"กรุณาเลือกข้อมูล petal.width\",0,10)\nsplen = st.number_input(\"กรุณาเลือกข้อมูล sepal.length\")\nspwd = st.number_input(\"กรุณาเลือกข้อมูล sepal.width\")\nfrom sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\nif st.button(\"ทำนายผล\"):\n   # ทำนาย\n   #dt = pd.read_csv(\"./data/iris.csv\") \n   X = dt.drop('variety', axis=1)",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "ptwd",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "ptwd = st.slider(\"กรุณาเลือกข้อมูล petal.width\",0,10)\nsplen = st.number_input(\"กรุณาเลือกข้อมูล sepal.length\")\nspwd = st.number_input(\"กรุณาเลือกข้อมูล sepal.width\")\nfrom sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\nif st.button(\"ทำนายผล\"):\n   # ทำนาย\n   #dt = pd.read_csv(\"./data/iris.csv\") \n   X = dt.drop('variety', axis=1)\n   y = dt.variety   ",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "splen",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "splen = st.number_input(\"กรุณาเลือกข้อมูล sepal.length\")\nspwd = st.number_input(\"กรุณาเลือกข้อมูล sepal.width\")\nfrom sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\nif st.button(\"ทำนายผล\"):\n   # ทำนาย\n   #dt = pd.read_csv(\"./data/iris.csv\") \n   X = dt.drop('variety', axis=1)\n   y = dt.variety   \n   Knn_model = KNeighborsClassifier(n_neighbors=3)",
+        "detail": "Home",
+        "documentation": {}
+    },
+    {
+        "label": "spwd",
+        "kind": 5,
+        "importPath": "Home",
+        "description": "Home",
+        "peekOfCode": "spwd = st.number_input(\"กรุณาเลือกข้อมูล sepal.width\")\nfrom sklearn.neighbors import KNeighborsClassifier\nimport numpy as np\nif st.button(\"ทำนายผล\"):\n   # ทำนาย\n   #dt = pd.read_csv(\"./data/iris.csv\") \n   X = dt.drop('variety', axis=1)\n   y = dt.variety   \n   Knn_model = KNeighborsClassifier(n_neighbors=3)\n   Knn_model.fit(X, y)",
+        "detail": "Home",
+        "documentation": {}
+    }
+]
