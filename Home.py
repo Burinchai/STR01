@@ -18,7 +18,7 @@ with col2:
 html_1 = """
 <style>
  *{
-   background-color:"red";
+   background-color: red;
   }
 </style>
 <div style="background-color:#52BE80;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
