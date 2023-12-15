@@ -85,7 +85,7 @@ if st.button("ทำนายผล"):
       st.image("./pic/versicolor.jpg")
       st.header("Versicolor")
    else:
-      st.image("./pic/virginiaca.jpg")  
+      st.image("./pic/virginica.jpg")  
       st.header("Verginiga")
    st.button("ไม่ทำนายผล")
 else :
